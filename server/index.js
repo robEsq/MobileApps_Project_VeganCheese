@@ -52,4 +52,9 @@ app.delete('/people/:id',(request, response) => {
     response.status(204).send();  
 });
 
-app.listen(port, () => console.log(`http://localhost:${port}/people`));
+app.listen(port, () => console.log(`
+    http://localhost:${port}/people\n
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n
+    ||||||||||||||||||||||||==APP IS RUNNING==||||||||||||||||||||||||\n
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n
+    `));
